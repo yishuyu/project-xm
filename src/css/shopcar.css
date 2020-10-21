@@ -1,0 +1,157 @@
+html{
+    background-color: #f5f5f5;
+}
+.main{
+    width: 1226px;
+    margin: 0 auto;
+}
+.hlong * {
+	display: inline-block;
+	vertical-align: middle;
+}
+/* 头部 */
+.head{
+    height: 100px;
+    line-height: 100px;
+    border-bottom: 2px solid #ff6700;
+    background-color: white;
+}
+.head img{
+    margin-top: 26px;
+    float: left;
+    width: 48px;
+    height: 48px;
+}
+.head span{
+    font-size: 28px;
+    font-weight: 400;
+    color: #424242;
+    float: left;
+    margin-left: 45px;
+    margin-right: 15px;
+}
+.head i{
+    float: left;
+    line-height: 115px;
+    color: #757575;
+}
+/* 商品列表 */
+.list .main{
+    margin-top: 70px;
+    background: white;
+}
+/* .list table,div{ */
+    /* display: none; */
+/* } */
+.list table th{
+    font-weight: normal;
+}
+.list table .inp{
+    display: inline-block;
+    vertical-align: middle;
+}
+.list table th span{
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+/* 全选 */
+.list table .selec{
+    width: 110px;
+}
+/* 图片 */
+img{
+    width: 80px;
+    height: 80px;
+}
+/* 商品名称 */
+.list table .one{
+    width: 450px;
+    height: 70px;
+    background: palegoldenrod;
+}
+/* 单价 */
+.list table .two{
+    width: 200px;
+    height: 70px;
+    background:palegreen;
+}
+
+/* 数量 */
+.list table .three{
+    width: 250px;
+    height: 70px;
+    background:paleturquoise;
+}
+/* 操作 */
+.list table .four{
+    width: 200px;
+    height: 70px;
+    background: palevioletred;
+}
+.list table td{
+    text-align: center;
+}
+.list table .add{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 48px;
+}
+.list table .jian{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.list table .del{
+    cursor: pointer;
+}
+/* 继续购物栏 */
+.continue{
+    height: 54px;
+    width: 1226px;
+    margin: 0 auto;
+    background: white;
+    margin-top: 18px;
+    line-height: 54px;
+}
+.continue ul li{
+    float: left;
+    margin-left: 10px;
+}
+.continue ul li:nth-child(1) a{
+    margin-left: 22px;
+    color: black;
+}
+.continue ul li:nth-child(1) a:hover{
+    color: #ff6700;
+}
+.continue ul li:nth-child(2) span{
+    color: #ff6700;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.continue_right{
+    float: right;
+}
+.continue_right ul li:nth-child(1){
+    color: #ff6700;
+    margin-left:635px;
+}
+.continue_right ul li:nth-child(1) span{
+    font-size: 30px;
+}
+.continue_right ul li:nth-child(2) a{
+    float: right;
+    width: 200px;
+    height: 54px;
+    background: #ff6700;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 20px;
+}

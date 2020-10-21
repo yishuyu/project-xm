@@ -1,0 +1,99 @@
+html{
+    background: #f9f9f9;
+}
+.main{
+    width: 854px;
+    margin: 0 auto;
+    background: white;
+}
+.one{
+    margin-top: 50px;
+}
+.one img{
+    width: 48px;
+    height: 48px;
+    margin-left: 400px;
+}
+.one .main>p{
+    text-align: center;
+    margin-top: 48px;
+    font-size: 30px;
+}
+form{
+    height: 500px;
+    text-align: center;
+    font-size: 14px;
+}
+form select{
+    width: 330px;
+    height: 40px;
+    border: 1px solid #e8e8e8;
+    outline: none;
+    margin: 10px 0 10px 0;
+}
+form input{
+    width: 320px;
+    height: 40px;
+    border: 1px solid #e8e8e8;
+    outline: none;
+    margin: 10px 0 10px 0;
+    padding-left: 10px;
+}
+form ul li:nth-child(1) p{
+    margin-right: 270px;
+    margin-top: 42px;
+}
+form ul li:nth-child(3) p{
+    margin-right: 110px;
+    color: #666666;
+    font-size: 12px;
+}
+form ul li:nth-child(4) p{
+    margin-right: 290px;
+    margin-top: 20px;
+}
+form ul li:nth-child(6) p{
+    margin-right: 304px;
+}
+form ul li:nth-child(8) input{
+    width: 330px;
+    height: 40px;
+    padding: 2px;
+    background: #ff6700;
+    color: white;
+}
+form ul li:nth-child(9) p{
+    font-size: 12px;
+    color: #666666;
+    margin-top: 84px;
+}
+form ul li:nth-child(9) span{
+    color: black;
+    font-weight: 600;
+}
+/* 备案 */
+.copy{
+	background: #fafafa;
+}
+.copy p:nth-child(1) {
+	margin-top: 30px;
+}
+
+.copy p {
+	line-height: 34px;
+	text-align: center;
+	color: #757575;
+}
+
+.copy span {
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+.copy a {
+	color: #757575;
+}
+
+.copy a:hover {
+	color: #333333;
+}
